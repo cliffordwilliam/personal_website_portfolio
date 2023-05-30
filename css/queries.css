@@ -6,7 +6,7 @@
 }
 @media (min-width: 36rem) and (orientation:landscape) {
     .card-container {
-        grid-template: 1fr / repeat(2, 1fr);
+        grid-template: 1fr / repeat(3, 1fr);
     }
 }
 
