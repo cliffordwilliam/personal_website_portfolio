@@ -1,8 +1,11 @@
 body {
-    font-family: 'OpenSans';
+    font-family: 'OpenSans', sans-serif;
+    margin: 0;
 }
 
+/* button */
 button {
+    text-transform: uppercase;
     position: relative;
     overflow: hidden;
     color: white;
@@ -21,7 +24,8 @@ span.ripple {
     border-radius: 50%;
     transform: scale(0);
     animation: ripple 600ms linear;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: white;
+    opacity: 0.7;
 }
 
 @keyframes ripple {
@@ -31,6 +35,84 @@ span.ripple {
     }
 }
 
+/* card */
+.card-container {
+    display: grid;
+    gap: 1rem;
+    margin: 1rem;
+    /* grid template controlled by queries */
+}
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.outlined {
+    border: 1px solid #e0e0e0;
+}
+
+.elevated {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);}
+
+.card > img {
+    max-width: 100%;
+}
+
+.card-wrapper-text-section {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.card-subhead {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    opacity: 0.6;
+}
+
+.card-supporting-text {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    opacity: 0.6;
+    margin-top: 1rem;
+}
+
+.card-action {
+    display: flex;
+    /* height: 36px; */
+    padding: 0.5rem;
+    gap: 0.25rem;
+}
+
+.card-action button {
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    color: #6200ee;
+}
+
+.card-action button span {
+    background-color: #6200ee;
+}
+
+.card-bottom-space {
+    padding-bottom: 1rem;
+}
+
+/* fade */
 .transparent {
     opacity: 0;
 }
