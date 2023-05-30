@@ -21,3 +21,21 @@
     src: url('../assets/fonts/open_sans_400.woff2') format('woff2');
     font-weight: 400;
   }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/montserrat_700.woff2') format('woff2');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/montserrat_300.woff2') format('woff2');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/montserrat_100.woff2') format('woff2');
+  font-weight: 100;
+}

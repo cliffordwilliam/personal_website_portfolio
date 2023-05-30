@@ -9,9 +9,35 @@
     <link rel="stylesheet" href="./css/queries.css">
 </head>
 <body>
-    <div style="padding: 1rem;">
-        <h2 style="text-align: center; font-size: 24px; font-weight: 400;">Responsive Card Grid Layout</h2>
+    <!-- navigation bar -->
+    <div id="navbar">
+        <span id="logo">Clifford William</span>
+        <div id="spacer"></div>
+        <button class="text">Portfolio</button>
+        <button class="text">Contact</button>
+        <button class="text">About</button>
+        <button class="text">Resume</button>
+        <img src="./assets/images/list.svg" alt="" id="burger">
+    </div>
+    <div id="burger-menu">
+        <button class="text">Portfolio</button>
+        <button class="text">Contact</button>
+        <button class="text">About</button>
+        <button class="text">Resume</button>
+    </div>
+
+    <!-- hero -->
+    <div id="hero">
+        <h1>Clifford William</h1>
+        <p>I am a Web Developer</p>
+        <button>hire me</button>
+    </div>
+
+    <!-- responsive card grid template -->
+    <div style="padding: 1rem; margin-top: 6rem;">
+        <h2 style="text-align: center; font-size: 24px; font-weight: 400;">My Portfolio</h2>
         <div class="card-container">
+            <!-- card -->
             <div class="card outlined">
                 <img src="https://picsum.photos/id/237/320/180" alt="">
                 <div class="card-wrapper-text-section">
@@ -20,10 +46,11 @@
                     <span class="card-supporting-text">Greyhound divisively hello coldly wonderfully marginally far upon excluding.</span>
                 </div>
                 <div class="card-action">
-                    <button>Action 1</button>
-                    <button>Action 2</button>
+                    <button class="text">Action 1</button>
+                    <button class="text">Action 2</button>
                 </div>
             </div>
+            <!-- card -->
             <div class="card outlined">
                 <img src="https://picsum.photos/id/237/320/180" alt="">
                 <div class="card-wrapper-text-section">
@@ -32,10 +59,11 @@
                     <span class="card-supporting-text">Greyhound divisively hello coldly wonderfully marginally far upon excluding.</span>
                 </div>
                 <div class="card-action">
-                    <button>Action 1</button>
-                    <button>Action 2</button>
+                    <button class="text">Action 1</button>
+                    <button class="text">Action 2</button>
                 </div>
             </div>
+            <!-- card -->
             <div class="card outlined">
                 <img src="https://picsum.photos/id/237/320/180" alt="">
                 <div class="card-wrapper-text-section">
@@ -44,10 +72,11 @@
                     <span class="card-supporting-text">Greyhound divisively hello coldly wonderfully marginally far upon excluding.</span>
                 </div>
                 <div class="card-action">
-                    <button>Action 1</button>
-                    <button>Action 2</button>
+                    <button class="text">Action 1</button>
+                    <button class="text">Action 2</button>
                 </div>
             </div>
+            <!-- card -->
             <div class="card outlined">
                 <img src="https://picsum.photos/id/237/320/180" alt="">
                 <div class="card-wrapper-text-section">
@@ -56,13 +85,15 @@
                     <span class="card-supporting-text">Greyhound divisively hello coldly wonderfully marginally far upon excluding.</span>
                 </div>
                 <div class="card-action">
-                    <button>Action 1</button>
-                    <button>Action 2</button>
+                    <button class="text">Action 1</button>
+                    <button class="text">Action 2</button>
                 </div>
             </div>
         </div>
     </div>
+    
     <script src="./js/fadeOnload.js"></script>
     <script src="./js/buttonEffect.js"></script>
+    <script src="./js/burger.js"></script>
 </body>
 </html>

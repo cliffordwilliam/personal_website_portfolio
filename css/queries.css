@@ -1,12 +1,24 @@
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 36rem) and (orientation:portrait) {
+@media (max-width: 48rem) and (orientation:portrait) {
     .card-container {
         grid-template: 1fr / repeat(1, 1fr);
     }
+    #burger {
+        display: block;
+    }
+    #navbar button {
+        display: none;
+    }
 }
-@media (min-width: 36rem) and (orientation:landscape) {
+@media (max-width: 48rem) and (orientation:landscape) {
     .card-container {
         grid-template: 1fr / repeat(3, 1fr);
+    }
+    #burger {
+        display: block;
+    }
+    #navbar button {
+        display: none;
     }
 }
 
@@ -15,12 +27,24 @@
     .card-container {
         grid-template: 1fr / repeat(2, 1fr);
     }
+    #burger {
+        display: block;
+    }
+    #navbar button {
+        display: none;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 62rem) {
     .card-container {
         grid-template: 1fr / repeat(3, 1fr);
+    }
+    #burger {
+        display: none;
+    }
+    #navbar button {
+        display: block;
     }
 }
 
@@ -29,11 +53,23 @@
     .card-container {
         grid-template: 1fr / repeat(3, 1fr);
     }
+    #burger {
+        display: none;
+    }
+    #navbar button {
+        display: block;
+    }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 87.5rem) {
     .card-container {
         grid-template: 1fr / repeat(4, 1fr);
+    }
+    #burger {
+        display: none;
+    }
+    #navbar button {
+        display: block;
     }
 }
