@@ -1,75 +1,60 @@
-/* Small devices (landscape phones, 576px and up) */
-@media (max-width: 48rem) and (orientation:portrait) {
-    .card-container {
-        grid-template: 1fr / repeat(1, 1fr);
+@media (min-width: 36rem){
+    .hero-con > span {
+        font-size: 1.8rem;
     }
-    #burger {
-        display: block;
+    
+    .hero-con > h1 {
+        font-size: 2.52rem;
     }
-    #navbar button {
-        display: none;
+    
+    .hero-con > p {
+        font-size: 2.16rem;
     }
-}
-@media (max-width: 48rem) and (orientation:landscape) {
-    .card-container {
-        grid-template: 1fr / repeat(3, 1fr);
-    }
-    #burger {
-        display: block;
-    }
-    #navbar button {
-        display: none;
-    }
-}
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 48rem) {
-    .card-container {
+    .feature-grid {
         grid-template: 1fr / repeat(2, 1fr);
     }
-    #burger {
-        display: block;
-    }
-    #navbar button {
-        display: none;
+
+    .text-con > h3 {
+        font-size: 1.25rem;
     }
 }
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 62rem) {
-    .card-container {
+@media (min-width: 48rem){
+    .feature-grid {
         grid-template: 1fr / repeat(3, 1fr);
     }
-    #burger {
-        display: none;
-    }
-    #navbar button {
-        display: block;
+}
+@media (min-width: 62rem){
+    .hero-con > img {
+        opacity: 1;
     }
 }
-
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 75rem) {
-    .card-container {
-        grid-template: 1fr / repeat(3, 1fr);
+@media (min-width: 75rem){
+    nav, .feature-grid{
+        width: 100%;
+        max-width: 100rem;
+        margin: 0 auto;
     }
-    #burger {
+
+    .burger {
         display: none;
     }
-    #navbar button {
-        display: block;
+    .nav-menu {
+        display: flex !important;
+        align-items: center;
+        height: 4rem !important;
+        flex-basis: auto;
+    }
+
+    .nav-menu > a {
+        height: 4rem;
+        padding: 0 1rem;
+    }
+
+    .hero-con > img {
+        /* media min width / pc top vw */
+        top: -18.75rem;
     }
 }
-
-/* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 87.5rem) {
-    .card-container {
-        grid-template: 1fr / repeat(4, 1fr);
-    }
-    #burger {
-        display: none;
-    }
-    #navbar button {
-        display: block;
-    }
+@media (min-width: 87.5rem){
 }

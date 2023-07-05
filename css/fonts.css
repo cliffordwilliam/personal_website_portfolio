@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'OpenSans';
-    src: url('../assets/fonts/open_sans_700.woff2') format('woff2');
-    font-weight: 700;
-  }
+  font-family: 'OpenSans';
+  src: url('../assets/fonts/open_sans_700.woff2') format('woff2');
+  font-weight: 700;
+}
 
 @font-face {
   font-family: 'OpenSans';
@@ -11,21 +11,21 @@
 }
 
 @font-face {
-    font-family: 'OpenSans';
-    src: url('../assets/fonts/open_sans_500.woff2') format('woff2');
-    font-weight: 500;
-  }
+  font-family: 'OpenSans';
+  src: url('../assets/fonts/open_sans_500.woff2') format('woff2');
+  font-weight: 500;
+}
 
 @font-face {
-    font-family: 'OpenSans';
-    src: url('../assets/fonts/open_sans_400.woff2') format('woff2');
-    font-weight: 400;
-  }
+  font-family: 'OpenSans';
+  src: url('../assets/fonts/open_sans_400.woff2') format('woff2');
+  font-weight: 400;
+}
 
 @font-face {
   font-family: 'Montserrat';
   src: url('../assets/fonts/montserrat_700.woff2') format('woff2');
-  font-weight: 700;
+  font-weight: 600;
 }
 
 @font-face {

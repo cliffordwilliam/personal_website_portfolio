@@ -3,97 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clifford William | Web Developer</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
     <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/queries.css">
 </head>
 <body>
-    <!-- navigation bar -->
-    <div id="navbar">
-        <span id="logo">Clifford William</span>
-        <div id="spacer"></div>
-        <button class="text">Portfolio</button>
-        <button class="text">Contact</button>
-        <button class="text">About</button>
-        <button class="text">Resume</button>
-        <img src="./assets/images/list.svg" alt="" id="burger">
-    </div>
-    <div id="burger-menu">
-        <button class="text">Portfolio</button>
-        <button class="text">Contact</button>
-        <button class="text">About</button>
-        <button class="text">Resume</button>
-    </div>
-
-    <!-- hero -->
-    <div id="hero">
-        <h1>Clifford William</h1>
-        <p>I am a Web Developer</p>
-        <button>hire me</button>
-    </div>
-
-    <!-- responsive card grid template -->
-    <div style="padding: 1rem; margin-top: 6rem;">
-        <h2 style="text-align: center; font-size: 24px; font-weight: 400;">My Portfolio</h2>
-        <div class="card-container">
-            <!-- card -->
-            <div class="card outlined">
-                <img src="https://picsum.photos/id/237/320/180" alt="">
-                <div class="card-wrapper-text-section">
-                    <span class="card-title">Card title</span>
-                    <span class="card-subhead">Secondary text</span>
-                    <span class="card-supporting-text">Greyhound divisively hello coldly wonderfully marginally far upon excluding.</span>
-                </div>
-                <div class="card-action">
-                    <button class="text">Action 1</button>
-                    <button class="text">Action 2</button>
-                </div>
+    <header>
+        <nav>
+            <a href="./index.html" class="logo">
+                <span>CLIFFORD</span>
+            </a>
+            <div class="icon burger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
             </div>
-            <!-- card -->
-            <div class="card outlined">
-                <img src="https://picsum.photos/id/237/320/180" alt="">
-                <div class="card-wrapper-text-section">
-                    <span class="card-title">Card title</span>
-                    <span class="card-subhead">Secondary text</span>
-                    <span class="card-supporting-text">Greyhound divisively hello coldly wonderfully marginally far upon excluding.</span>
-                </div>
-                <div class="card-action">
-                    <button class="text">Action 1</button>
-                    <button class="text">Action 2</button>
-                </div>
+            <div class="nav-menu">
+                <a href="#">
+                    <span>Home</span>
+                </a>
+                <a href="#">
+                    <span>Portfolio</span>
+                </a>
+                <a href="#">
+                    <span>Services</span>
+                </a>
+                <a href="#">
+                    <span>About Me</span>
+                </a>
+                <a href="#">
+                    <span>My Contact</span>
+                </a>
             </div>
-            <!-- card -->
-            <div class="card outlined">
-                <img src="https://picsum.photos/id/237/320/180" alt="">
-                <div class="card-wrapper-text-section">
-                    <span class="card-title">Card title</span>
-                    <span class="card-subhead">Secondary text</span>
-                    <span class="card-supporting-text">Greyhound divisively hello coldly wonderfully marginally far upon excluding.</span>
-                </div>
-                <div class="card-action">
-                    <button class="text">Action 1</button>
-                    <button class="text">Action 2</button>
-                </div>
-            </div>
-            <!-- card -->
-            <div class="card outlined">
-                <img src="https://picsum.photos/id/237/320/180" alt="">
-                <div class="card-wrapper-text-section">
-                    <span class="card-title">Card title</span>
-                    <span class="card-subhead">Secondary text</span>
-                    <span class="card-supporting-text">Greyhound divisively hello coldly wonderfully marginally far upon excluding.</span>
-                </div>
-                <div class="card-action">
-                    <button class="text">Action 1</button>
-                    <button class="text">Action 2</button>
-                </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-con">
+            <span>I AM</span>
+            <h1>CLIFFORD WILLIAM</h1>
+            <p>A WEB DEVELOPER</p>
+            <img src="./assets/images/hero.webp" alt="">
+        </div>
+    </section>
+    <section class="feature">
+        <div class="feature-con">
+            <h2>
+                <span>My Latest Work</span>
+                <hr>
+            </h2>
+            <div class="feature-grid">
+                <a href="https://cliffordwilliam.github.io/swat_site/" class="card">
+                    <img src="assets/images/swat.webp" alt="">
+                    <div class="text-con">
+                        <h3>Swatt Bakery</h3>
+                        <p>My family's bakery</p>
+                    </div>
+                </a>
+                <a href="https://cliffordwilliam.github.io/production-solutions-frontend-improvements/" class="card">
+                    <img src="/assets/images/production_solutions.webp" alt="">
+                    <div class="text-con">
+                        <h3>Production Solutions</h3>
+                        <p>Provider Company</p>
+                    </div>
+                </a>
+                <a href="https://cliffordwilliam.github.io/primarasa_site/" class="card">
+                    <img src="/assets/images/primarasa.webp" alt="">
+                    <div class="text-con">
+                        <h3>Primarasa Bakery</h3>
+                        <p>Girl friend's bakery</p>
+                    </div>
+                </a>
             </div>
         </div>
-    </div>
-    
-    <script src="./js/fadeOnload.js"></script>
-    <script src="./js/buttonEffect.js"></script>
-    <script src="./js/burger.js"></script>
+    </section>
+    <script src="./js/navbar.js"></script>
 </body>
 </html>
